@@ -26,7 +26,7 @@ export const kanbanCardTitleStyles = css`
 
 export const KanbanCard = ({ title, status, onDragStart, onRemove }) => {
   const [displayTime, setDisplayTime] = useState(status);
-  const { isAdmin } = useContext(AdminContext);
+  const isAdmin = useContext(AdminContext);
 
   useEffect(() => {
     const updateDisplayTime = () => {

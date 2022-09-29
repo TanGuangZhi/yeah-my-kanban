@@ -71,7 +71,7 @@ function App() {
         </h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <AdminContext.Provider value={{ isAdmin }}>
+      <AdminContext.Provider value={isAdmin}>
         <KanbanBoard
           // {...(todoList, ongoingList, doneList)}
           todoList={todoList}
