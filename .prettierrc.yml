@@ -1,0 +1,5 @@
+printWidth: 120
+singleQuote: true
+arrowParents: avoid
+trailingComma: none // 关闭尾随逗号
+semi: false
